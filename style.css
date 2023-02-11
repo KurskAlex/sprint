@@ -1,0 +1,300 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+.bill {
+    background: hwb(340 12% 76%);
+    color: white;
+    /* padding-left: 15%;
+    padding-right: 15%; */
+    /* flex-wrap: wrap;
+    align-content: center;
+    height: 100%; */
+}
+
+.objective {
+    background-color: aliceblue;
+}
+
+.box {
+    margin: 0 auto;
+    width: 1170px;
+
+}
+
+.heder_boxinbox {
+    display: flex;
+    align-items: center;
+}
+
+.header_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 100px;
+}
+
+
+.bill-img {
+    border-radius: 200px;
+    display: flex;
+    align-items: flex-start;
+    margin: 1px;
+    padding: 30px;
+}
+
+.bill-title {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 40px;
+    color: #E3E9F3;
+
+    padding-bottom: 13px;
+}
+
+.bill-p {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 19px;
+    color: #E3E9F3;
+}
+
+.objectiv_box {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 23px;
+    color: #3F313F;
+
+    padding-bottom: 25px;
+    padding-top: 65px;
+    background-color: aliceblue;
+
+}
+
+.objectiv_h2 {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 23px;
+    color: #3F313F;
+
+    padding-top: 80px;
+    padding-bottom: 25px;
+}
+
+.objective_text {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #3F313F;
+
+    padding-bottom: 15px;
+}
+
+
+.experience {
+    background-color: aliceblue;
+}
+
+.experience_wrapper {
+    display: flex;
+}
+
+.experience_title {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #3F313F;
+
+}
+
+.experience_text {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #3F313F;
+
+    padding-right: 92px;
+}
+
+.experience_content {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #3F313F;
+
+    padding-left: 179px;
+}
+
+.ex__head {
+    padding-left: 18px;
+}
+
+.skills {
+    background-color: aliceblue;
+}
+
+.language {
+    background-color: aliceblue;
+
+    padding-bottom: 70px;
+}
+
+.form {
+    background-color: bisque;
+
+
+}
+
+.form_ {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 24px;
+    color: #3F313F;
+
+    padding-top: 40px;
+    text-align: center;
+    padding-bottom: 11px;
+}
+
+.form_box {
+    display: flex;
+    justify-content: center;
+
+}
+
+.name {
+    /* margin-top: 20px; */
+    /*margin-left: 10px;*/
+    padding: 10px;
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #3F313F;
+
+}
+
+
+.form-user {
+    /* margin-top: 35px; */
+    /*margin-bottom: 10px;*/
+    /*padding-left: 60px;*/
+    border-bottom: 1px solid;
+    background-color: bisque;
+    width: 850px;
+    height: 30px;
+    border-top: 1px solid;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    font-weight: bold;
+    /*border-top-left-radius: 10px;
+    border-top-right-radius: 10px; */
+    border-radius: 10px;
+}
+
+
+.form_textarea {
+    width: 850px;
+    background-color: #f6efed;
+    height: 52px;
+    margin-top: 20px;
+
+
+}
+
+.form_1 {
+    display: flex;
+    flex-direction: row-reverse;
+    /* background-color: bisque;b */
+    columns: bisque;
+    /* flex-direction: column;
+    justify-content: space-between; */
+
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+
+}
+
+.button_ {
+    background: hwb(340 12% 76%);
+    color: white;
+    width: 150px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 10px;
+    margin-block: center;
+    /* display: flex;
+    /* flex-direction: column; */
+    /* justify-content: center; */
+}
+
+.contacts {
+    background: hwb(340 12% 76%);
+    color: aliceblue;
+
+}
+
+.contacts_h2 {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 23px;
+    text-align: center;
+
+    padding-right: 10px;
+    padding-top: 15px;
+    margin-bottom: 20px;
+
+}
+
+.items {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.contacts-items {
+    background: hwb(340 12% 76%);
+    color: rgb(208, 206, 206);
+
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 0;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: right;
+
+    padding-right: 10px;
+    padding-bottom: 15px;
+}
+
+.footer-author {
+    background: hwb(340 12% 76%);
+    color: grey;
+    text-align: center;
+    padding-bottom: 10px;
+}
